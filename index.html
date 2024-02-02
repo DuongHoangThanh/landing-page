@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-</head>
-<body>
-    This is my Portfolio
-</body>
+  </head>
+  <body class="bg-[#04152D] text-white pt-10 px-20">
+    <header class="container mx-auto px-5 items-center flex justify-between ">
+      <a href="#" class="text-xl font-bold">Portfolio</a>
+      <nav class="flex space-x-10 ">
+        <a href="#">About</a>
+        <a href="#">Experience</a>
+        <a href="#">Project</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section class="container mt-14 flex justify-between items-center ">
+      <div>
+        <h1 class="font-extrabold text-7xl">Hi, I'm Hoàng Thạnh</h1>
+        <p class="mt-8 text-3xl">
+          I’m a full-stack developer with 5 years of experience using React and
+          NodeJS. Reach out if you’d like to learn more!
+        </p>
+        <button class="bg-[#576CBC] px-4 py-3 font-semibold rounded-full mt-8">Contact Me</button>
+      </div>
+      <img src="./img/avatar.png" alt="avatar">
+    </section>
+  </body>
 </html>
